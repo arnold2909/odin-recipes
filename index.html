@@ -3,23 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Best Recipes</title>
   </head>
   <body>
-    <h1>The best recipes in the world !</h1>
-
-    <ul>
-      <li>
-        <a href="./recipes/chicken-gyros.html">Farne's chicken chicken gyros</a>
-      </li>
-      <li>
-        <a href="./recipes/pad-thai.html">Farne's pad thai</a>
-      </li>
-      <li>
-        <a href="./recipes/salmon-courgette-linguine.html"
-          >Farne's salmon courgette linguine</a
-        >
-      </li>
-    </ul>
+    <h1 class="title">The best recipes in the world !</h1>
+    <div class="list-container">
+      <ul>
+        <li class="recipe-list-item">
+          <a class="recipe-list" href="./recipes/chicken-gyros.html"
+            >Farne's chicken chicken gyros</a
+          >
+          <img
+            class="home-images"
+            src="images/chicken-gyros.jpg"
+            alt="Image of a chicken gyros"
+          />
+        </li>
+        <li class="recipe-list-item">
+          <a class="recipe-list" href="./recipes/pad-thai.html"
+            >Farne's pad thai</a
+          >
+          <img
+            class="home-images"
+            src="images/pad-thai.jpg"
+            alt="Image of pad thai"
+          />
+        </li>
+        <li class="recipe-list-item">
+          <a class="recipe-list" href="./recipes/salmon-courgette-linguine.html"
+            >Farne's salmon courgette linguine</a
+          >
+          <img
+            class="home-images"
+            src="images/linguine.png"
+            alt="Image of linguine"
+          />
+        </li>
+      </ul>
+    </div>
   </body>
 </html>

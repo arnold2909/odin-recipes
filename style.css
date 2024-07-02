@@ -1,0 +1,88 @@
+.title {
+    color: white;
+    background-color: darkgreen;
+    align-self: center;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.back-button,
+p {
+    font-family: sans-serif;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius:5px;
+}
+
+.back-button {
+    margin: 15px;
+    display: block;
+    width: 100px;
+}
+
+h2 {
+    font-family: sans-serif;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius:5px;
+}
+
+.recipe-list {
+    background-color: darkgoldenrod;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    align-self: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 3px;
+    display: block;
+}
+
+.recipe-list-item {
+    margin:15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.list-container {
+    text-align: center;
+    background-color: darkgreen;
+    align-self: center;
+    border-radius: 25px;
+    padding: 8px;
+    margin: 10px;
+}
+
+.home-images {
+    align-self: center;
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.image-container {
+    text-align: center;
+    align-self: center;
+    padding: 8px;
+}
+
+.recipe-image {
+    align-self: center;
+    border-radius: 25px;
+}
+
