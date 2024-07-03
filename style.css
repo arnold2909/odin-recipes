@@ -15,7 +15,8 @@ ul {
 }
 
 .back-button,
-p {
+p,
+h2 {
     font-family: sans-serif;
     background-color: green;
     color: white;
@@ -28,15 +29,6 @@ p {
     margin: 15px;
     display: block;
     width: 100px;
-}
-
-h2 {
-    font-family: sans-serif;
-    background-color: green;
-    color: white;
-    padding: 5px;
-    text-align: center;
-    border-radius:5px;
 }
 
 .recipe-list {
@@ -58,7 +50,7 @@ h2 {
     font-weight: 400;
 }
 
-.list-container {
+.container {
     text-align: center;
     background-color: darkgreen;
     align-self: center;
@@ -67,22 +59,25 @@ h2 {
     margin: 10px;
 }
 
-.home-images {
+.container.images {
+    background-color: transparent;
+}
+
+.images {
     align-self: center;
-    width: 250px;
-    height: auto;
     border-radius: 20px;
     margin: 10px;
 }
 
-.image-container {
-    text-align: center;
-    align-self: center;
-    padding: 8px;
+.images.home {
+    width : 250px;
+    height: auto;
 }
 
-.recipe-image {
-    align-self: center;
-    border-radius: 25px;
+.images.recipe{
+    width : 400px;
+    height : auto;
 }
+
+
 
